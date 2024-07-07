@@ -3,8 +3,26 @@
 * The Java client for Elasticsearch provides strongly typed requests and responses for all Elasticsearch APIs.
 * It delegates protocol handling to an http client such as the **Elasticsearch low level REST client** that takes care of all transport-level concerns (http conncetion establishment and pooling, retries, etc).
 
-  ## Indexing Documents:
-  * ****
+  ## Creating a Client:
+    - Batteries included, some assembly required
+      ```
+      RestClient httpClient = RestClient
+        .builder(new HttpHost("localhost", 8081)) <--- Http & cluster node discovery layer
+        .build();
+      ```
+      ```
+      JacksonJsonMapper jsonMapper = new JaksonJsonMapper(); <--- Json parser & object mapper
+      ```
+      ```
+      ElasticsearchTransport transport = new RestClientTransport(httpClient, jsonMapper); <--- Transport: groups json and http
+      ```
+      ```
+      Elasticsearch client = new ElasticsearchClient(transport); <--- ES API client
+      ```
+      ```
+      ElasticsearchAsyncClient asyncClient = new ElasticsearchAsyncClient(transport); <--- Also available in async form
+      ```
+  * **An example Kibana's template**
   ```
   PUT /products/_doc/abc
   {
