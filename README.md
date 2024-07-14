@@ -1,4 +1,4 @@
-# Elasticsearch
+# Elasticsearch Low-Level Java Client
 * Elastic has recently released a new Java client for Elasticsearch, which is more lightweight than the previous High Level Rest client while providing a more complete API coverage and an easier to use DSL-like eperience.
 * The Java client for Elasticsearch provides strongly typed requests and responses for all Elasticsearch APIs.
 * It delegates protocol handling to an http client such as the **Elasticsearch low level REST client** that takes care of all transport-level concerns (http conncetion establishment and pooling, retries, etc).
