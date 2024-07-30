@@ -1,0 +1,55 @@
+9 networking protocols that we should have on our tips for coding interviews. 
+
+► HTTP (Hypertext Transfer Protocol)
+- Facilitates user requests for web pages.
+- The server responds with the requested content.
+-  Provides easy access to websites.
+- Example: Viewing a page on Wikipedia.
+
+► HTTPS (Hypertext Transfer Protocol Secure)
+- Encrypts data during transmission.
+- Ensures secure communication between users and servers.
+-  Safeguards sensitive data.
+- Example: Using secure online banking or shopping sites.
+
+► FTP (File Transfer Protocol)
+- Enables file transfers between computers over the internet.
+- Supports uploading and downloading of files.
+-  Allows for large file transfers.
+- Example: Uploading content to a web server.
+
+► TCP (Transmission Control Protocol)
+- Breaks data into packets and ensures their correct delivery.
+- Guarantees the packets arrive in order and intact.
+-  Provides reliable data transfer.
+- Example: Fully loading a web page with all its elements.
+
+► IP (Internet Protocol)
+- Assigns unique addresses to devices.
+- Directs data to its intended destination.
+-  Ensures data reaches the correct device.
+- Example: Sending an email to a specific address.
+
+► UDP (User Datagram Protocol)
+- Sends data without error-checking.
+- Offers faster but less reliable transmission than TCP.
+-  Facilitates quick data transfer.
+- Example: Streaming live video or playing online games.
+
+► SMTP (Simple Mail Transfer Protocol)
+- Transfers emails from one server to another.
+- Routes messages through various servers to the recipient.
+-  Efficiently delivers emails.
+- Example: Sending an email to a colleague.
+
+► SSH (Secure Shell)
+- Establishes a secure connection to a remote computer.
+- Enables secure control and file transfers.
+-  Provides secure remote management.
+- Example: Remotely managing a server via command line.
+
+► IMAP (Internet Message Access Protocol)
+- Stores emails on a server for access from multiple devices.
+- Allows synchronization of emails across different devices.
+-  Keeps emails updated across all devices.
+- Example: Checking your email on both your phone and laptop.
