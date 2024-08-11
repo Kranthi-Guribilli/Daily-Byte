@@ -20,6 +20,7 @@
   * Remove: ``` O(1) ```
 
 **Queue**
+
 * A Queue is a collection of elements, supporting two principle operations: enqueue, which inserts an element into the queue, and dequeue, which removes an element fromt he queue
 * **FIFO data structure:** the oldest added object is the first to be removed
 * Time Complexity:
@@ -38,18 +39,24 @@
 *  **Complete Tree:** a binary tree in which every level except possibly the last is full and all nodes in the last level are as far left as possible
 
 **Binary Search Tree**  
-* A BST is a type of  binary tree which maintains the property that the value in each node must be greater than or equal to any value stored in the left sub-tree, and less thn or equal to any value stored in the right sub-tree
+* A BST is a type of  binary tree which maintains the property that the value in each node must be greater than or equal to any value stored in the left sub-tree, and less thn or equal to any value stored in the right sub-tree <img src = "https://github.com/user-attachments/assets/c1407068-d57a-4e23-b823-9f47c51c52f5" width="120" align="right"/>
+
+
 * Time Complexity:
    * Access: ``` O(log(n)) ```
   * Search: ``` O(log(n)) ```
   * Insert: ``` O(log(n)) ```
   * Remove: ``` O(log(n)) ```
+ 
     
 **Trie**
 * A Trie, sometimes called a radix or prefix tree, is a kind of search tree that is used to store a dynamic set or associative array where the keys are usually strings. No node in the tree stores the key associated with that node; instead, its position in the tree defines the key with which it is associated. All the descendants of a node have a common prefix of the string associated with that node, and the root is associated with the empty string.
+ <img src = "https://github.com/Kranthi-Guribilli/Daily-Byte/blob/main/images/trie.png" width="200" align="center"/>
+
   
 **Fenwick Tree**
 * A Fenwick tree, sometimes called a binary indexed tree, is a tree in concept, but in practice is implemented as an implicit data structure using an arry. Given an index in the array representing a vertex, the index of a vertex's parent or child is calculated through bitwise operations on the binary representation of its index. Each element of the array contains the pre-calculated sum of a range of values, and by combining that sum with additional ranges encountered during an upward traversal to the root, the prefix sum is calculated
 * Time Complexity:
   * Range Sum: ``` O(log(n)) ```
   * Update: ``` O(log(n)) ```
+  <img src = "https://github.com/Kranthi-Guribilli/Daily-Byte/blob/main/images/fenwickTree.png" align="center"/>
